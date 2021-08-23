@@ -1,0 +1,11 @@
+Tes Drive Development
+create new docker image
+# docker build -t andrimh\catalog:v3 .
+
+create new project 
+# dotnet new xunit -n Catalog.UnitTests
+# create new file build.proj
+# build withn CTRL Shift B
+# dotnet add reference ..\Catalog.Api\Catalog.Api.csproj // add reference to UnitTests
+# dotnet add package Microsoft.Extensions.Logging.Abstractions 
+# dotnet add package moq
